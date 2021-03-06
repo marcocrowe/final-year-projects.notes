@@ -21,8 +21,25 @@
 		<div class="slides">
 			<section id="TitleSlide">
 				<h3>Final Year Projects (FYP)</h3>
-				<p>By Mark Crowe</p>
-				<p>March, 2021</p>
+				<address>
+					<p>Mark Crowe</p>
+					<p><small><a href="mailto:mark.crowe@lit.ie">mark.crowe@lit.ie</a></small></p>
+				</address>
+				<p>&nbsp;</p>
+				<footer>
+					<small>
+						<time datetime="2021-03-01">Published: March, 2021</time><br />
+						<address>
+							<a
+								href="https://markcrowe-com.github.io/final-year-projects.notes/">https://markcrowe-com.github.io/final-year-projects.notes</a>
+						</address><br />
+						<cite style="vertical-align: middle;">These notes were developed using <a href="https://revealjs.com/"
+								target="_blank">
+							<img src="https://revealjs.com/images/logo/reveal-white-text.svg"
+								alt="reveal.js logo"></a>
+						</cite>
+					</small>
+				</footer>
 			</section>
 			<section id="FirstFYP">
 				<h3>(First) Final Year Project</h3>
@@ -42,9 +59,6 @@
 			<section id="FirstQuestion">
 				<h3>You think you're the first?</h3>
 			</section>
-			<section id="TheFirst">
-				<h3>Someone had to be the first</h3>
-			</section>
 			<section id="SourceControl">
 				<h3>Source Control and Backup</h3>
 				<ul>
@@ -56,30 +70,33 @@
 			<section id="Planning">
 				<h3>Planning</h3>
 			</section>
-			<section>
+			<section id="References">
 				<h3>References and Sources</h3>
 			</section>
 			<section id="Documentation">
 				<h3>Documentation</h3>
-				<h4>Reports</h4>
 				<ul>
-					<li>Reports</li>
+					<li>The Report</li>
 					<ul>
 						<li>Microsoft Word</li>
-						<p>basics of word, outline view , references TOC & TOF</p>
-						<li>Adobe Pdf</li>
-						<li>Html</li>
-						<li>Markdown</li>
+						<li>Html/Markdown</li>
 					</ul>
 					<li>The Presentation</li>
 					<ul>
 						<li>Power Point</li>
-						<li>Adobe Pdf</li>
 						<li>Html/Reveal.js</li>
 					</ul>
 				</ul>
 			</section>
-			<section>
+			<section id="Presentation">
+				<h3>The Presentation</h3>
+				<ul>
+					<li>Power Point</li>
+					<li>Adobe Pdf</li>
+					<li>Html/Reveal.js</li>
+				</ul>
+			</section>
+			<section id="SelfPromotion">
 				<h3>Self Promotion</h3>
 				<ul>
 					<li>Microsoft Word</li>
@@ -88,13 +105,8 @@
 					<li>Markdown</li>
 				</ul>
 			</section>
-			<section>
-				<h3>The Presentation</h3>
-				<ul>
-					<li>Power Point</li>
-					<li>Adobe Pdf</li>
-					<li>Html/Reveal.js</li>
-				</ul>
+			<section id="TheFirst">
+				<h3>Someone had to be the first</h3>
 			</section>
 			<section id="Help">
 				<h3>Help and Support.</h3>
@@ -105,7 +117,6 @@
 			</section>
 		</div>
 	</div>
-
 	<div id="RevealScripts">
 		<script src="reveal.js/dist/reveal.js"></script>
 		<script src="reveal.js/plugin/notes/notes.js"></script>
@@ -115,7 +126,7 @@
 			Reveal.initialize(
 				{
 					hash: true,
-					plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+					plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
 				}
 			);
 		</script>
